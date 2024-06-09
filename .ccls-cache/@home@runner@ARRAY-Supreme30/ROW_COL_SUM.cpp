@@ -24,7 +24,7 @@ int main() {
     cout << "output the elements of the array" << endl;
     for(int i = 0; i < row_size; i++) {
         for(int j = 0; j < col_size; j++) {
-            cout << arr[i][j] << " ";
+            cout << arr[j][i] << " ";
         }
         cout << endl;
     }
